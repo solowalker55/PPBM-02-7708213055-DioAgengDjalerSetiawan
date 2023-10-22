@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Flane</string>
+
+    <string-array name="jobs">
+        <item>Accountant</item>
+        <item>Architect</item>
+        <item>Artist</item>
+        <item>Civil Engineer</item>
+        <item>Data Analyst</item>
+        <item>Doctor</item>
+        <item>Electrician</item>
+        <item>Financial Analyst</item>
+        <item>Firefighter</item>
+        <item>Graphic Designer</item>
+        <item>Lawyer</item>
+        <item>Mechanical Engineer</item>
+        <item>Marketing Specialist</item>
+        <item>Nurse</item>
+        <item>Police Officer</item>
+        <item>Plumber</item>
+        <item>Project Manager</item>
+        <item>Real Estate Agent</item>
+        <item>Restaurant Chef</item>
+        <item>Software Engineer</item>
+        <item>Teacher</item>
+        <item>Unemployed</item>
+        <item>Web Developer</item>
+    </string-array>
+</resources>

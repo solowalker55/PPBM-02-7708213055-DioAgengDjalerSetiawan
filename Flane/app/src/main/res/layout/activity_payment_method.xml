@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentMethod"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/payment_toHome"
+            android:background="@drawable/backarrow2"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Method"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/interbold"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/white">
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginVertical="14dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="Method 1"
+                    android:fontFamily="@font/intermedium"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="bold"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginVertical="14dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="Method 2"
+                    android:fontFamily="@font/intermedium"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="bold"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginVertical="14dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="Method 3"
+                    android:fontFamily="@font/intermedium"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="bold"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginVertical="14dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="Method 4"
+                    android:fontFamily="@font/intermedium"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="bold"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginVertical="14dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="Method 5"
+                    android:fontFamily="@font/intermedium"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="bold"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginVertical="14dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="Method 6"
+                    android:fontFamily="@font/intermedium"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="bold"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginVertical="14dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="Method 7"
+                    android:fontFamily="@font/intermedium"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="bold"/>
+            </RadioGroup>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/payment_toNot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp"
+            android:backgroundTint="#1F77FE">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Proceed"
+                    android:textSize="20dp"
+                    android:layout_marginVertical="20dp"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/interbold"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>
